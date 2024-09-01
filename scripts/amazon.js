@@ -54,4 +54,4 @@ products.forEach(product => {
 })
 
 
-document.querySelector(".js-products").innerHTML = productHtml;
+$(".js-products").html(productHtml);
